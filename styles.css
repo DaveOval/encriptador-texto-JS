@@ -64,7 +64,7 @@ html {
   color: #0A3871;
   width: 90vw;
   font-size: 1.7rem;
-  min-height: 300px;
+  min-height: 20vh;
   text-align: left;
   word-wrap: break-word;
 }
