@@ -2,9 +2,9 @@ $dB400: #072B61;
 $lB200: #EFF1FA;
 .btn2 {
     border: none;
-    background-color: $dB400;
+    background-color: $lB200;
     border: 1px solid $dB400;
-    color: #fff;
+    color: $dB400;
     border-radius: 24px;
     padding: 23px;
     gap: 8px;
@@ -16,6 +16,6 @@ $lB200: #EFF1FA;
 
 .btn2:hover {
     border: 1px solid $dB400;
-    background-color: $lB200;
-    color: $dB300;
+    background-color: $dB400;
+    color: white;
 }

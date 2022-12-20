@@ -1,4 +1,5 @@
 $dB300: #0A3871;
+$lB200: #EFF1FA;
 .btn1{
     border: none;
     background-color: $dB300;
@@ -14,6 +15,6 @@ $dB300: #0A3871;
 }
 .btn1:hover{
     border: 1px solid $dB300;
-    background-color: #fff;
+    background-color: $lB200;
     color: $dB300;
 }
