@@ -20,3 +20,8 @@ $lB100: #F3F5FC;
     border: #0A3871 solid 1px;
 }
 
+@media screen and (min-width: 767px) {
+    .text-input{
+        min-height: 30vh;
+    }
+}

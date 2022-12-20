@@ -18,3 +18,9 @@ $lB200: #EFF1FA;
     background-color: $lB200;
     color: $dB300;
 }
+
+@media screen and (min-width: 767px){
+    .btn1{
+        width: 45vw;
+    }
+}
