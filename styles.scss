@@ -86,6 +86,11 @@ body{
 }
 
 @media screen and (min-width: 1024px) {
+    .info{
+        position: absolute;
+        bottom: 20vh;
+        left: 20vw;
+    }
     .buttons{
         position: absolute;
         width: 40vw;
