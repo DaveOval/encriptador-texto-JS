@@ -86,10 +86,16 @@ body{
 }
 
 @media screen and (min-width: 1024px) {
+    .input-area{
+        position: absolute;
+        left: 20vw;
+        top: 20vh;
+    }
     .info{
         position: absolute;
         bottom: 20vh;
         left: 20vw;
+        
     }
     .buttons{
         position: absolute;

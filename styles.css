@@ -100,6 +100,11 @@ html {
     min-height: 30vh;
   }
 }
+@media screen and (min-width: 1024px) {
+  .text-input {
+    width: 45vw;
+  }
+}
 .muneco {
   display: none;
 }
@@ -203,6 +208,11 @@ body {
   }
 }
 @media screen and (min-width: 1024px) {
+  .input-area {
+    position: absolute;
+    left: 20vw;
+    top: 20vh;
+  }
   .info {
     position: absolute;
     bottom: 20vh;
