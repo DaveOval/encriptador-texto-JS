@@ -1,5 +1,10 @@
+
+.muneco{
+    display: none;
+}
 .result{
     display: flex;
+    flex-direction: column;
     color: black;
     background-color: white;
     border-radius: 32px;
@@ -9,12 +14,18 @@
     min-height: 166px;
     width: 90vw;
     border: none;
-    font-size: 1.7rem;
     height: auto;
+    border: 1rem;
 }
 .result::placeholder{
     font-size: 1.7rem;
     font-weight: 600;
     color: black;
+}
+
+@media screen and (min-width: 1024px) {
+    .muneco{
+        display: block;
+    }
 }
 

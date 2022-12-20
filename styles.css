@@ -55,11 +55,11 @@
   }
 }
 .logo {
-  width: 32px;
+  width: 48px;
   height: 48px;
-  background-image: url(../media/logo.svg);
+  background-image: url(../media/logo.png);
   background-repeat: no-repeat;
-  background-size: 32px 48px;
+  background-size: contain;
   background-position: center;
 }
 
@@ -100,8 +100,13 @@ html {
     min-height: 30vh;
   }
 }
+.muneco {
+  display: none;
+}
+
 .result {
   display: flex;
+  flex-direction: column;
   color: black;
   background-color: white;
   border-radius: 32px;
@@ -111,8 +116,8 @@ html {
   min-height: 166px;
   width: 90vw;
   border: none;
-  font-size: 1.7rem;
   height: auto;
+  border: 1rem;
 }
 
 .result::-moz-placeholder {
@@ -133,6 +138,11 @@ html {
   color: black;
 }
 
+@media screen and (min-width: 1024px) {
+  .muneco {
+    display: block;
+  }
+}
 body {
   display: flex;
   flex-direction: column;
@@ -190,5 +200,24 @@ body {
     flex-direction: row;
     justify-content: center;
     align-items: center;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .buttons {
+    position: absolute;
+    width: 40vw;
+    bottom: 9vh;
+    left: 20vw;
+  }
+  .result {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 25vw;
+    height: 90vh;
+    position: absolute;
+    top: 5vh;
+    right: 5vw;
   }
 }/*# sourceMappingURL=styles.css.map */
