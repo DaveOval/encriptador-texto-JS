@@ -1,0 +1,66 @@
+@import "./sass/reset";
+@import "./sass/button-1";
+@import "./sass/button-2";
+@import "./sass/logo";
+@import "./sass/background";
+@import "./sass/text-input";
+@import "./sass/result";
+
+//Dark blue//
+$dB100: #609ED4;
+$dB200: #356EA9;
+$dB300: #0A3871;
+$dB400: #072B61;
+$dB400-2: #052051;
+
+//Ligth blue
+$lB100: #F3F5FC;
+$lB200: #EFF1FA;
+$lB300: #E9ECF8;
+$lB400: #AAB2D5;
+$lB500: #757FB2;
+
+//Gray
+$G100: #CED4DA;
+$G200: #ADB5BD;
+$G500: #868E96;
+$G400: #495057;
+$G500: #343A40;
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.header{
+    width: 100%;
+    height: 90px;
+    .logo{
+        padding-top: 24px;
+        padding-left: 16px;
+    }
+}
+
+.input-area{
+    margin: auto;
+}
+
+.info{
+    color: $G400;
+    margin: 1rem;
+    font-size: 14px;
+    align-self: flex-start;
+}
+.material-symbols-outlined{
+    color: white;
+    background-color: #67808E;
+    border-radius: 50px;
+}
+
+.buttons{
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    width: 90vw;
+    padding-bottom: 2rem;
+}

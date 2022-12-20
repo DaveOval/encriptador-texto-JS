@@ -1,0 +1,23 @@
+$dB300: #0A3871;
+$lB100: #F3F5FC;
+
+.text-input{
+    padding-top: 1rem;
+    background-color: $lB100;
+    border: none; 
+    color: $dB300;
+    width: 90vw;
+    font-size: 1.7rem;
+    min-height: 300px;
+    text-align: left;
+    word-wrap: break-word;
+    
+}
+::placeholder{
+    color: $dB300
+    }
+
+.text-input::marker{
+    border: #0A3871 solid 1px;
+}
+
