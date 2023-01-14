@@ -14,7 +14,13 @@ function encriptar(){
   .replaceAll("i", "imes")
   .replaceAll("o", "ober")
   .replaceAll("a", "ai")
-  .replaceAll("u", "ufat");
+  .replaceAll("u", "ufat")
+  .replaceAll("E", "ENTER")
+  .replaceAll("I", "IMES")
+  .replaceAll("O", "OBER")
+  .replaceAll("A", "AI")
+  .replaceAll("U", "UFAT");
+  document.getElementById('text-input').innerText = " ";
   document.getElementById('text-out').innerHTML = mensajeEncriptado;
   document.getElementById('text-header').style.display = "none";
   document.getElementById('muneco').style.display = "none";
