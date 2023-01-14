@@ -1,8 +1,6 @@
 var inputMensaje = document.getElementById('text-input');
 var inputResultado = document.getElementById('')
 var salida = document.getElementById('text-out');
-
-
 function encriptar(){
   if(inputMensaje.value == ""){
     alert('Escribe un mensaje para ser encriptado por favor.');
@@ -20,14 +18,13 @@ function encriptar(){
   .replaceAll("O", "OBER")
   .replaceAll("A", "AI")
   .replaceAll("U", "UFAT");
-  document.getElementById('text-input').value = " ";
+  document.getElementById('text-input').innerText = " ";
   document.getElementById('text-out').innerHTML = mensajeEncriptado;
   document.getElementById('text-header').style.display = "none";
   document.getElementById('muneco').style.display = "none";
   document.getElementById("btn-copiar").style.display = "block"
   }
 }
-
 function desencriptar(){
   if(inputMensaje.value == ""){
     alert('Escribe un mensaje para ser desencriptado por favor.');
@@ -40,18 +37,16 @@ function desencriptar(){
   .replaceAll("imes", "i")
   .replaceAll("ober", "o")
   .replaceAll("ufat", "u")
-  document.getElementById('text-input').value = " ";
+  document.getElementById('text-input').innerHTML = " ";
   document.getElementById('text-out').innerHTML = mensaje;
   document.getElementById('text-header').style.display = "none";
   document.getElementById('muneco').style.display = "none";
   document.getElementById("btn-copiar").style.display = "block"
   }
 }
-
 function copiar(){
-  var mensajeEncriptado = inputResultado;
+  mensajeEncriptado = inputResultado.value;
   navigator.clipboard.writeText(mensajeEncriptado);
   inputMensaje.value = " ";
   inputMensaje.focus();
-  alert('Aun no jala esta madre');
 }
