@@ -20,7 +20,7 @@ function encriptar(){
   .replaceAll("O", "OBER")
   .replaceAll("A", "AI")
   .replaceAll("U", "UFAT");
-  document.getElementById('text-input').innerText = " ";
+  document.getElementById('text-input').value = " ";
   document.getElementById('text-out').innerHTML = mensajeEncriptado;
   document.getElementById('text-header').style.display = "none";
   document.getElementById('muneco').style.display = "none";
@@ -40,7 +40,7 @@ function desencriptar(){
   .replaceAll("imes", "i")
   .replaceAll("ober", "o")
   .replaceAll("ufat", "u")
-  document.getElementById('text-input').innerText = " ";
+  document.getElementById('text-input').value = " ";
   document.getElementById('text-out').innerHTML = mensaje;
   document.getElementById('text-header').style.display = "none";
   document.getElementById('muneco').style.display = "none";
@@ -49,6 +49,9 @@ function desencriptar(){
 }
 
 function copiar(){
-  var mensajeEncriptado = inputResultado.value;
+  var mensajeEncriptado = inputResultado;
   navigator.clipboard.writeText(mensajeEncriptado);
+  inputMensaje.value = " ";
+  inputMensaje.focus();
+  alert('Aun no jala esta madre');
 }
