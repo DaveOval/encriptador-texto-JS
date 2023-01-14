@@ -15,6 +15,10 @@ Las funciones disponibles son:
 
 ![Desktop](./media/vista_desktop.png)
 
+## Vista desktop funcionando: 
+
+![Funcionando](./media/vista_funcionando.png)
+
 ## Vista Tablet:
 
 ![Tablet](./media/vista_tablet.png)
