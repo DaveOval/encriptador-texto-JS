@@ -24,6 +24,7 @@ function encriptar(){
   document.getElementById('text-out').innerHTML = mensajeEncriptado;
   document.getElementById('text-header').style.display = "none";
   document.getElementById('muneco').style.display = "none";
+  document.getElementById("btn-copiar").style.display = "block"
   }
 }
 
@@ -39,7 +40,11 @@ function desencriptar(){
   .replaceAll("imes", "i")
   .replaceAll("ober", "o")
   .replaceAll("ufat", "u")
-  console.log(mensaje);
+  document.getElementById('text-input').innerText = " ";
+  document.getElementById('text-out').innerHTML = mensaje;
+  document.getElementById('text-header').style.display = "none";
+  document.getElementById('muneco').style.display = "none";
+  document.getElementById("btn-copiar").style.display = "block"
   }
 }
 

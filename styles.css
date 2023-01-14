@@ -149,6 +149,31 @@ html {
     width: 80%;
   }
 }
+.btn3 {
+  border: none;
+  border: 1px solid #072B61;
+  color: #072B61;
+  border-radius: 24px;
+  padding: 23px;
+  font-size: 16px;
+  transition: all 300ms ease-out;
+  font-weight: 400;
+  line-height: 19.36px;
+  display: none;
+  width: 80%;
+}
+
+.btn3:hover {
+  border: 1px solid #072B61;
+  background-color: #072B61;
+  color: white;
+}
+
+@media screen and (min-width: 767px) {
+  .btn3 {
+    width: 80%;
+  }
+}
 body {
   display: flex;
   flex-direction: column;
@@ -194,6 +219,12 @@ body {
   padding-bottom: 2rem;
 }
 
+.result {
+  justify-content: center;
+  align-items: center;
+  gap: auto;
+}
+
 @media screen and (min-width: 767px) {
   .header {
     padding-bottom: 20px;
@@ -235,5 +266,6 @@ body {
     position: absolute;
     top: 5vh;
     right: 5vw;
+    gap: 5%;
   }
 }/*# sourceMappingURL=styles.css.map */

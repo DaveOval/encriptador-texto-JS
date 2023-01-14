@@ -5,6 +5,7 @@
 @import "./sass/background";
 @import "./sass/text-input";
 @import "./sass/result";
+@import "./sass/button-3";
 
 //Dark blue//
 $dB100: #609ED4;
@@ -68,6 +69,11 @@ body{
     width: 90vw;
     padding-bottom: 2rem;
 }
+.result{
+    justify-content: center;
+    align-items: center;
+    gap: auto;
+}
 
 @media screen and (min-width: 767px) {
     .header{
@@ -113,5 +119,6 @@ body{
         position: absolute;
         top: 5vh;
         right: 5vw;
+        gap: 5%;
     }
 }
