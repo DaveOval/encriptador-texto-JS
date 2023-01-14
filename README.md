@@ -6,7 +6,9 @@ para estra pagina se utilizo [GitHub Pages](https://daveoval.github.io/encriptad
 Las funciones disponibles son:
 
 -Encriptador/Codificador.
+
 -Desencriptador/Decodificador.
+
 -Boton de copiar. (en desarrollo)
 
 ## Vista Desktop:
